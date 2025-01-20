@@ -25,7 +25,7 @@ const MakeJourney = () => {
     <div className="w-full h-screen">
       <div>
         {/* Section Title */}
-        <h1 className="text-3xl font-bold text-center mb-8 py-2 px-4 max-w-96 border-2 border-sky-600 rounded-l-full rounded-r-full mx-auto text-gray-950">
+        <h1 className="text-3xl font-bold text-center mb-8 py-2 px-4 max-w-96 border-2 border-blue-400 rounded-l-full rounded-r-full mx-auto text-gray-950">
           Make Your Journey
         </h1>
         {/* Cards */}
