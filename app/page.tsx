@@ -10,7 +10,7 @@ export default function Page() {
     <div>
       <Navbar />
       <FormBoard />
-      {/* <MakeJourny /> */}
+      <MakeJourny />
       <HeroSection />
       <Card />
       <Footer />

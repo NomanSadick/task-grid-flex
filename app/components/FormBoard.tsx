@@ -4,7 +4,7 @@ import Image from "next/image"; // Importing the Next.js Image component
 
 const FormBoard: React.FC = () => {
   return (
-    <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center -mt-14 z-50">
+    <div className="min-h-screen flex flex-col items-center justify-center -mt-14 z-50">
       <div className="text-center mb-8">
         <h1 className="text-4xl font-semibold text-sky-800">
           Travel, Your Way!
@@ -22,7 +22,7 @@ const FormBoard: React.FC = () => {
           </h2>
         </div>
       </div>
-      <div className="relative bg-white shadow-lg border border-gray-300 p-6 rounded-lg w-full max-w-4xl z-50">
+      <div className="relative bg-white shadow-lg border border-gray-300 p-6 rounded-lg w-full max-w-4xl">
         <form className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {/* Left Column */}
           <div>
@@ -141,7 +141,7 @@ const FormBoard: React.FC = () => {
           alt="Image 3"
           width={100}
           height={100}
-          className="absolute -bottom-24 -left-24 z-0 mx-auto w-40 h-40"
+          className="absolute -bottom-24 -left-24 -z-20 mx-auto w-40 h-40"
         />
 
         <Image
@@ -149,7 +149,7 @@ const FormBoard: React.FC = () => {
           alt="Image 4"
           width={100}
           height={100}
-          className="absolute -bottom-24 -right-24 z-0 mx-auto w-40 h-40"
+          className="absolute -bottom-24 -right-24 -z-20 mx-auto w-40 h-40"
         />
       </div>
     </div>
