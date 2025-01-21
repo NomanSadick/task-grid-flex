@@ -4,7 +4,7 @@ import Image from "next/image"; // Importing the Next.js Image component
 
 const FormBoard: React.FC = () => {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center -mt-14 z-50">
+    <div className="h-full flex flex-col items-center justify-center mt-24 z-50">
       <div className="text-center mb-8">
         <h1 className="text-4xl font-semibold text-sky-800">
           Travel, Your Way!
