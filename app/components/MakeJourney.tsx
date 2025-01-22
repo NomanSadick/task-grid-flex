@@ -23,7 +23,7 @@ const MakeJourney = () => {
   ];
 
   return (
-    <div className="w-full flex justify-center items-center mt-24 mb-16">
+    <div className="h-full flex justify-center items-center mt-24 mb-16">
       <div className="w-[80%] sm:w-3/4 md:w-1/2">
         <h3 className="text-3xl font-bold text-center mb-4 py-2 px-4 max-w-96 border-2 border-blue-400 rounded-l-full rounded-r-full mx-auto text-gray-950">
           Make Your Journey
@@ -80,7 +80,7 @@ const MakeJourney = () => {
             className="absolute right-40 w-56 h-48"
           />
         </div>
-        <div className="relative mt-6 flex justify-center mt-40 z-50">
+        <div className="relative flex justify-center mt-40 z-50">
           <button
             type="submit"
             className="bg-orange-500 hover:bg-blue-600 text-white font-medium py-2 px-6 rounded-md flex items-center gap-2"
